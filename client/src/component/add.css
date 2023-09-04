@@ -1,0 +1,148 @@
+.add-experience-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: pink;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.3s ease;
+}
+
+.add-experience-form:hover {
+  transform: perspective(1000px) rotateY(10deg);
+}
+
+.another-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: pink;
+  color: pink;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.3s ease;
+}
+
+.another-form:hover {
+  transform: perspective(1000px) rotateY(10deg);
+}
+
+.add-experience-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: red (174, 149, 86);
+  color: palevioletred;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-experience-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="file"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff;
+  color: #db3482;
+  font-weight: bold;
+  border:violet;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.my-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blueviolet;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: violet;
+}
+
+
+
+.circular-button {
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input[type="file"],
+.loader {
+  transform-style: preserve-3d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: rotateY(0deg);
+  transition: transform 0.3s ease;
+  background-color: violet;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group input[type="file"]:hover,
+.loader:hover {
+  transform: rotateY(180deg);
+}
+
+.form-group input[type="file"]::before,
+.loader::before {
+  content: "\f093";
+  font-family: FontAwesome;
+  font-size: 24px;
+  display: block;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  color: blue;
+}

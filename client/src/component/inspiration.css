@@ -1,0 +1,27 @@
+
+body {
+ 
+  background-image: url('https://i.pinimg.com/236x/73/75/da/7375da65dfb18ba4609f8dc09cf7df7b.jpg');
+  background-size:  100% ; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.card {
+  text-align: center;
+  border: 6px solid rgb(215, 149, 160); 
+  border-radius: 100px; 
+  overflow: hidden; 
+}
+
+
+  
+
+ 
+ 
+  
+  
+  
+
+  
